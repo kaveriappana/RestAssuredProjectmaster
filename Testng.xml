@@ -1,0 +1,38 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name ="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:\Users\kaveri.appana\IdeaProjects\RestAssuredProject\pom.xml">
+<!--       <parameter name="sheetName" value="Sheet5"></parameter>-->
+<!--        <parameter name="id" value="0"/>-->
+<!--        <parameter name="username" value="king"/>-->
+<!--        <parameter name="firstName" value="queen"/>-->
+<!--        <parameter name="lastName" value="kingqueen"/>-->
+<!--        <parameter name="email" value="king@gmail.com"/>-->
+<!--        <parameter name="password" value="kaveri"/>-->
+<!--        <parameter name="phone" value="798989889"/>-->
+<!--        <parameter name="userStatus" value="0"/>-->
+
+<!--        <parameter name="ID" value="0"/>-->
+<!--        <parameter name="petId" value="8989"/>-->
+<!--        <parameter name="quantity" value="0"/>-->
+<!--        <parameter name="shipDate" value="2023-03-15T09:21:50.970Z"/>-->
+<!--        <parameter name="status" value="placed"/>-->
+<!--        <parameter name="complete" value="true"/>-->
+
+        <classes>
+<!--            <class name ="PetStore.PlaceOrderForPet">-->
+<!--                <methods>-->
+<!--                    <include name="petorder" />-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--<class name ="usercollection.MultipleUsersByUsingArray"></class>-->
+            <class name ="Pet.AddPet"></class>
+<!--            <class name="GetRequest.UserLogin"></class>-->
+<!--            <class name ="GetRequest.UserGetRequest"></class>-->
+<!--            <class name ="GetRequest.GetOrder"></class>-->
+<!--            <class name = "PetStore.GetPetInventory"></class>-->
+<!--            <class name ="usercollection.PostCreate"></class>-->
+
+        </classes>
+    </test>
+
+</suite>
